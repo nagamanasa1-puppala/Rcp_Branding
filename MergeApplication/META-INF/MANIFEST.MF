@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: MergeApplication
+Bundle-SymbolicName: MergeApplication;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: mergeapplication.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.apache.felix.scr,
+ org.eclipse.equinox.event,
+ org.jsoup;bundle-version="1.8.3",
+ org.eclipse.ui.intro
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: MergeApplication
+Bundle-ActivationPolicy: lazy
+Import-Package: javax.inject;version="1.0.0"
